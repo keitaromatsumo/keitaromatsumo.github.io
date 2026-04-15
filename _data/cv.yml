@@ -3,7 +3,6 @@ cv:
   headline: Scientist
   email: einstein@example.com
   location: Princeton, NJ
-  photo: ""
 
   social_networks:
     - network: X
@@ -12,13 +11,6 @@ cv:
       username: example
     - network: LinkedIn
       username: example
-
-  address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
-    countryCode: US
 
   sections:
     summary:
@@ -97,16 +89,11 @@ cv:
           - Men of the Year 2014 by Time magazine.
 
     Awards:
-      - title: Nobel Prize in Physics
-        awarder: Royal Swedish Academy of Sciences
-        date: 1921-11-01
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: Awarded for contributions that had a profound impact on physics.
+      - label: Nobel Prize in Physics
+        details: Royal Swedish Academy of Sciences, 1921. https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
 
-      - title: Max Planck Medal
-        awarder: German Physical Society
-        date: 1929
-        summary: Awarded for outstanding scientific achievement.
+      - label: Max Planck Medal
+        details: German Physical Society, 1929. Awarded for outstanding scientific achievement.
 
     Publications:
       - title: Zur Elektrodynamik bewegter Körper
@@ -171,8 +158,8 @@ cv:
         end_date: 2018-01-01
 
     References:
-      - name: Professor John Doe
+      - label: Professor John Doe
         details: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
 
-      - name: Professor Jane Smith
+      - label: Professor Jane Smith
         details: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
